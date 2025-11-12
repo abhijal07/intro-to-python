@@ -1,0 +1,11 @@
+f=0
+s=1
+n=int(input("enter the number of terms"))
+print(f,s,end=',')
+i=2
+while i<=n:
+    nxt_num=f+s
+    print(nxt_num,end=',')
+    f=s
+    s=nxt_num
+    i+=1
