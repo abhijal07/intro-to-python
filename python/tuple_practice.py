@@ -1,0 +1,10 @@
+tup=input("enter the tuple values")
+print('before adiing new values to tuple',tup)
+L=list(tup)
+n=int(input("enter how many values you want to enter in the tuple"))
+for i in range(n):
+    val=int(input("enter the values"))
+    val2=int(input("enter the positions"))
+    L.insert(val2,val)
+T=tuple(L)
+print("the new tuple is",T)
